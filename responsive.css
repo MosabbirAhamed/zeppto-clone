@@ -1,0 +1,285 @@
+
+
+.head-wrap i.nav_bar{
+    display: none;
+    position: relative;
+}
+
+/*Medium for tablets ≥768px */
+
+@media (max-width: 767px){
+
+    /* Header */
+
+.head-wrap{ 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.head-left{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom:20px;
+}
+.nav_active {
+    display: flex;
+}
+.nav-link{
+    margin: 5px 0px ;
+}
+.head-wrap i.nav_bar{
+    display: block;
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    font-size: 1.7em;
+    color:var(--primary-color);
+}
+
+    /* Hero */
+
+    .hero_wrap{
+        flex-direction: column;
+    }
+
+    .hero_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero_right{
+        width: 80%;
+    }
+    .hero_left h1{
+        font-size: 3em;
+    }
+
+    /* Brand */
+
+    .brand_contant img{
+        padding: 10px 50px;
+        width: 60px;
+    }
+    #brand div.container p{
+        font-size: 0.8em;
+    }
+
+    /* Order */
+
+    .order_wrap{
+        flex-direction: column;
+    }
+    .order_right{
+        width: 70%;
+    }
+    .order_left{
+        width: 95%;
+    }
+    .order_left h1{
+        font-size: 2em;
+    }
+
+     /* cost */
+
+     .cost_wrap{
+        flex-direction: column;
+    }
+    .cost_right{
+        width: 70%;
+    }
+    .cost_left{
+        width: 95%;
+    }
+    .cost_left h1{
+        font-size: 2em;
+    }
+/*------ benefits-------*/
+.benefits div.container{
+    padding: 25px;
+}
+
+    .benefits_title{
+        flex-direction: column;
+        align-items:flex-start;
+        padding: 100px 0px;
+    }
+    .benefits_title h1{
+        width: 100%;
+        padding-bottom: 25px;
+        font-size: 2.2em;
+    }
+    .benefits_title h3{
+        font-size: 1.1em;
+        width: 100%;
+    }
+    .benefits_card{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .benefits_c_content{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .benefits_c_content h2{
+        font-size: 1.3em;
+        padding:15px 0px;
+    }
+    .benefits_c_content p{
+        font-size: .9em;
+
+    }
+
+    /*------ Instant -------*/
+
+    #instant{
+        background:var(--primary-color);
+        padding-bottom: 60px;
+    }
+
+    .instant_img{
+        display: none;
+    }
+    .instant_wrap_img{
+        left: -25px;
+    }
+
+    .instant_wrap{
+        height: 100%;
+        flex-direction: column;
+        padding: 70px 0px 0px 0px;
+    }
+    .instant_right{
+        width: 100%;
+    }
+    .instant_left{
+        width: 100%;
+    }
+    .instant_left h1{
+        font-size: 2.6em;
+        padding-bottom: 50px;
+    }
+    .instant_right h3{
+        font-size: 1.2em;
+    }
+    /* payment */
+
+    .payment{
+        padding: 20px 0;
+    }
+    .payment_wrap{
+        flex-direction: column-reverse;
+    }
+    .payment_right, .payment_left {
+        width: 90%;
+    }
+    .title{
+        font-size: 2.2em;
+    }
+    .payment_right ul li{
+        font-size: 1.1em;
+        padding-bottom:20px;
+    }
+    /* platforms */
+    .platforms_wrap{
+        flex-direction: column;
+    }
+
+    .platforms_right{
+        height: 100%;
+
+    }
+    .platforms_left, .platforms_right{
+        width: 90%;
+    }
+    .platforms_left h1{
+        font-size: 2.1em;
+        padding-bottom: 50px;
+    }
+    .platforms_right .platform_img img{
+        width: 180px;
+        height: 90px;
+    }
+
+    /* FAQ */
+
+    .faq{
+        padding-bottom: 40px;
+    }
+    .faq_contant{
+        padding: 20px;
+    }
+    .faq_title{
+        padding: 30px 0px;
+    }
+    .faq_title h2{
+        font-size: 1.1em;
+    }
+    .faq_single p{
+        font-size: .9em;
+     }
+
+    /* Footer */
+
+    .f_contant{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .addres {
+        padding: 40px 0px;
+    }
+    .f_copy{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_policy{
+        order: 2;
+        padding: 40px 0px;
+        width: 50%;
+    }
+    .footer_nav{
+        order: 1;
+        width: 70%;
+    }
+    .footer_copyright{
+        order: 3;
+        width: 100%;
+    }
+    .footer_copyright p{
+        margin:auto;
+    }
+
+    
+
+
+
+
+}
+
+
+
+/*Small for mobail ≥576px */
+
+@media (max-width: 575px){
+
+
+    /* Hero */
+    .hero_left h1{
+        font-size: 2em;
+        margin-bottom:20px;
+    }
+
+    .hero_left p{
+        font-size: 1em;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+
+
+}
